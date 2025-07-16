@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="box">
+
+        
+        <form id="form">
+            <h1>Verificador de Idade</h1>
+            <label for="number">Digite seu ano de nascimento :</label>
+            <input type="number" id="number" placeholder="Ex: 2000" required>
+
+
+            <label for="select">Selecione a sua sexualidade :</label>
+            <select id="select" required>
+                <option value="" disabled selected>Sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            
+            <button id="button" type="submit" onclick="verificar()">Verificar</button>
+
+            <p id="paragrafo"></p>
+            
+
+            
+
+            
+        </form>
+        
+
+        <footer>&copy; David Trabuco </footer>
+        
+    </div>
+
+
+</body>
+
+</html>
